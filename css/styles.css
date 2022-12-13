@@ -665,7 +665,11 @@ section {
     .home .text2{
         font-size: 15px;
     }
-
+    
+    .tab-links{
+        font-size: 14px;
+    }
+      
 }
 
 @media (max-width:750px){
@@ -718,6 +722,10 @@ section {
         margin: 20px;
         width: 100%;
     }
+
+    .tab-links{
+        font-size: 12px;
+    }
 }
 
 @media (max-width:500px){
@@ -736,5 +744,9 @@ section {
     .skills .boxes .box{
         margin: 50px;
         width: 100%;
+    }
+
+    .tab-links{
+        font-size: 10px;
     }
 }
