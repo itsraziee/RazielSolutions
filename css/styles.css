@@ -54,7 +54,7 @@ nav .navbar{
 }
 
 nav .navbar .logo{
-    width: 70px;
+    width: 60px;
   cursor: pointer;
 }
 
@@ -260,10 +260,10 @@ section .title span::after {
   
 section .topic1 {
     color: #f0f0f0;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 800;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     text-align: left;
     font-family: 'Noto Sans Ethiopic', sans-serif;
 }
@@ -430,6 +430,178 @@ section .content4 {
     color:#f0f0f0;
 }
 
+/*-------------------- Portfolio ---------------------*/
+section {
+    padding-top: 40px;
+  }
+  
+  .portfolio {
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-color: #1e1e1e;
+  }
+  
+  .tab-titles{
+    justify-content: center;
+    display: flex;
+    margin: 30px 0 40px;
+    color:#f0f0f0
+  }
+  
+  .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #f0bf35;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+  }
+  
+  .tab-links.active-link::after{
+    width: 50%;
+  }
+  
+  .tab-contents{
+    display: none;
+  }
+  
+  .tab-contents.active-tab{
+    display: block;
+  }
+  
+  /* ---------------Web Design-----------------  */
+  /* Slideshow container */
+  .slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  .slideshow-image{
+    width: 100%;
+    border-radius: 20px;
+  }
+  /* Caption text */
+  .text {
+    color: #0c0c0c;
+    font-size: 20px;
+    padding: 8px 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    justify-content: center;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  
+  /* ---------------Web Development-----------------  */
+  /* Hide the images by default */
+  .mySlides2 {
+    display: none;
+  }
+  
+  /* ---------------Vector Art-----------------  */
+  .art-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box1{
+    margin: 50px 0;
+    width: calc(100% / 4 - 40px);
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #1a1a1a;
+    cursor: default;
+  }
+  
+  .box1 img{
+    transition: transform 0.5s;
+  }
+  
+  .box1:hover img{
+    transform: scale(1.1);
+  }
+  /* ---------------Photography-----------------  */
+  .art-card4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .art-card3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box4{
+    margin: 50px 0;
+    width: calc(100% / 4 - 40px);
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #1a1a1a;
+    cursor: default;
+  }
+  
+  .box4 img{
+    transition: transform 0.5s;
+  }
+  
+  .box4:hover img{
+    transform: scale(1.1);
+  }
+  
 /* -----Responsive Media Queries ----- */
 @media (max-width:1190px){
     section .content1, .content2, .content3, .content4{
