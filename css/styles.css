@@ -757,7 +757,7 @@ section {
     }
 
     .tab-titles{
-        margin: 40px 10px 40px 70px;
+        margin: 40px 10px 40px 10px;
       }
 }
 
@@ -767,6 +767,6 @@ section {
     }
 
     .tab-titles{
-        margin: 40px 2px 40px 70px;
+        margin: 40px 2px 40px 2px;
       }
 }
