@@ -724,7 +724,7 @@ section {
     }
 
     .tab-links{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -747,6 +747,26 @@ section {
     }
 
     .tab-links{
-        font-size: 10px;
+        font-size: 7px;
     }
+}
+
+@media (max-width:400px){
+    .tab-links{
+        font-size: 9px;
+    }
+
+    .tab-titles{
+        margin: 40px 2px 40px 70px;
+      }
+}
+
+@media (max-width:350px){
+    .tab-links{
+        font-size: 5px;
+    }
+
+    .tab-titles{
+        margin: 40px 2px 40px 70px;
+      }
 }
