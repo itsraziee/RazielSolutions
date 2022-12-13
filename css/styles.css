@@ -26,10 +26,10 @@
   }
   
   /* image-responsiveness */
-  /* .responsive {
+  .responsive {
     max-width: 100%;
     height: auto;
-  } */
+  }
 
 /* -----Navigation Bar----- */
 nav{
@@ -503,7 +503,7 @@ section {
     border-radius: 20px;
   }
   /* Caption text */
-  .text {
+  .caption {
     color: #0c0c0c;
     font-size: 20px;
     padding: 8px 12px;
@@ -601,7 +601,7 @@ section {
   .box4:hover img{
     transform: scale(1.1);
   }
-  
+
 /* -----Responsive Media Queries ----- */
 @media (max-width:1190px){
     section .content1, .content2, .content3, .content4{
